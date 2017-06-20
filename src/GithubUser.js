@@ -25,7 +25,7 @@ class GithubUser extends Component {
   }
 
   componentWillReceiveProps(nextProps) {
-    const locationChanged = nextProps.location !== this.props.locaiton
+    const locationChanged = nextProps.location !== this.props.location
     if (locationChanged) {
       this.fetchUserData(nextProps)
     }
