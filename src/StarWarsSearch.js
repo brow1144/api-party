@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 import './StarWarsSearch.css'
 
+import StarWarsMovies from './StarWarsMovies'
+
 class StarWarsSearch extends Component {
   state = {
     person: {
@@ -13,7 +15,6 @@ class StarWarsSearch extends Component {
       skin_color: '',
       films: [],
     },
-    films: [],
   }
   constructor(props) {
     super(props)
@@ -26,7 +27,6 @@ class StarWarsSearch extends Component {
     fetch(`https://swapi.co/api/people/?search=${props.match.params.username}&format=json`)
       .then(response => response.json())
       .then(people => { person = people.results[0] })
-      .then(people => console.log(person))
       .then(people => {if (person) { this.setState({ person })} })
   }
 
@@ -46,6 +46,7 @@ class StarWarsSearch extends Component {
         <h3>Hair Color: {this.state.person.hair_color}</h3>
         <h3>Eye Color: {this.state.person.eye_color}</h3>
         <h3>Birth Year: {this.state.person.birth_year}</h3>
+        <StarWarsMovies movies={this.state.person.films}/>
       </div>
     )
   }

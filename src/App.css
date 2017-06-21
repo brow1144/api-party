@@ -11,6 +11,12 @@ h1 {
   text-transform: uppercase;
 }
 
+.header {
+  font: 60px/75px 'Alfa Slab One', cursive, sans-serif;
+  text-transform: uppercase;
+  color: whitesmoke;
+}
+
 h3 {
   font: italic 400 30px/40px "Gentium Book Basic", serif;
 }
