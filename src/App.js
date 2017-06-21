@@ -32,7 +32,7 @@ class App extends Component {
               <NavLink to={'/weather'}>Weather API</NavLink>
             </li>
             <li>
-              <NavLink to={'StarWars'}>StarWars API</NavLink>
+              <NavLink to={'/StarWars'}>StarWars API</NavLink>
             </li>
             <li>
               <NavLink to={'/homework'}>Homework</NavLink>

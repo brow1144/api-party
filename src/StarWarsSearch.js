@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import './StarWarsSearch.css'
 
 import StarWarsMovies from './StarWarsMovies'
 
