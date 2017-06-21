@@ -6,6 +6,7 @@ import Nasa from './Nasa'
 import Weather from './Weather'
 import StarWars from './StarWars'
 import Homework from './Homework'
+import StarWarsMovieTab from './StarWarsMovieTab'
 import './App.css';
 
 class App extends Component {
@@ -45,6 +46,7 @@ class App extends Component {
           <Route path='/weather' component={Weather} />
           <Route path='/StarWars' component={StarWars} />
           <Route path='/homework' component={Homework} />
+          <Route path='/movies' component={StarWarsMovieTab} />
           <Route render={() => <p>To get started, click one of the links above</p>} />
         </Switch>
       </div>

@@ -6,6 +6,7 @@
 .StarWars-logo {
     width: 100%;
     max-width: 300px;
+    margin-top: 1rem;
 }
 
 .StarWars input {
@@ -32,4 +33,25 @@
     margin-bottom: 50px;
     background-color: #0184be;
     font-family: "Gentium Book Basic", serif;
+}
+
+.NavLink {
+    font-family: "Gentium Book Basic", serif;
+    display: inline-block;
+    padding: 0 15px;
+    color: #02b1ff;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.NavLink.active {
+  color: #F79824;
+}
+
+.NavLink.active:hover {
+  color: #FDCA40;
+}
+
+.NavLink:hover {
+  color: #0184be;
 }
