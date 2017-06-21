@@ -4,7 +4,6 @@ import { Route, NavLink } from 'react-router-dom'
 import './StarWars.css'
 
 import StarWarsSearch from './StarWarsSearch'
-import StarWarsMovieTab from './StarWarsMovieTab'
 
 class StarWars extends Component {
   state = {
