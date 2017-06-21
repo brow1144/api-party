@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # API Party!
 
 ## Day 10 Homework
@@ -22,6 +21,3 @@ Add additional routes and APIs (Complete!)
 ### Super Mega Bonus Credit Hyper Fighting
 
 Figure out something interesting to do with the data on your own. Make a graph, render a map, add child routes, go nuts!
-=======
-
->>>>>>> 2ee32082e4a5f576e007ab150023cd42063f8284
